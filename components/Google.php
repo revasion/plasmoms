@@ -60,5 +60,7 @@ class Google extends Component
         return array('distance' => $dist, 'time' => $time);
     }
 
-
+    public static function hello(){
+        return "Helloo!!";
+    }
 }
