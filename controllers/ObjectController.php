@@ -39,7 +39,7 @@ class ObjectController extends Controller
     public function actionIndex()
     {
         VarDumper::dump(Yii::$app->google->hello());exit;
-        //Yii::$app->user->id;
+        //Yii::$app->user->id;//test comment
         $searchModel = new ObjectSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
